@@ -8,16 +8,16 @@
 | JS  | [https://www.javascript.com/](https://www.javascript.com/)     |
 | Node  | [https://nodejs.org/en](https://nodejs.org/en)     |
 | MySQL  | [https://www.mysql.com/](https://www.mysql.com/)     |
-| Inquirer  | [https://www.npmjs.com/package/inquirer](https://www.npmjs.com/package/inquirer)     |
+| Sequelize  | [https://sequelize.org/](https://sequelize.org/)     |
 
 
 ## Description
 
-[Visit the Deployed Site](https://dann-lam.github.io/04-29-2023-employee-database/)
+[Visit the Deployed Site](https://dann-lam.github.io/e-commerce-orm-db/)
 
-This is a CLI app that allows users to read and write departments, roles, and employee information to a SQL database.
+This is an ecommerce app that is a practice for the backend of an e-commerce styled website.
 
-Users can add additional departments, roles, and employees, as well as update existing employees.
+The challenges were creating the databases, creating the sequelize models, describing how relationships between the database models, and creating the routes for the API.
 
 It's still quite early and not 100% fully fleshed out, later features will be more complete allowing users to delete users or departments or anything else.
 
@@ -33,31 +33,30 @@ It's still quite early and not 100% fully fleshed out, later features will be mo
 
 ## Usage
 
-To use this, start by cloning it and installing node.
+Install NPM.
 
-Once complete, run node server.js
+Initialize your sequelize database schema with mysql.
 
-Here is a quick demo of the application, a longer version can be found here: https://raw.githubusercontent.com/dann-lam/04-29-2023-employee-database/main/assets/full_usage.mp4
+Seed the data, package.json outlines how to access the seed via npm command.
 
-![Image of Application](https://github.com/dann-lam/04-29-2023-employee-database/blob/main/assets/preview_usage.gif)
+start the server, npm run start.
+
+Here is a quick demo of the application, a longer version can be found here: https://raw.githubusercontent.com/dann-lam/04-29-2023-employee-database/main/walkthrough.mp4
+
+https://raw.githubusercontent.com/dann-lam/04-29-2023-employee-database/main/walkthrough2.mp4
+![Image of Application](https://github.com/dann-lam/04-29-2023-employee-database/blob/main/short_demo.gif)
 
 
 
 ## Learning Points
 
-Wow, what a fun challenge!
-There are still a lot of uncompleted aspects of this project that I don't feel are super properly addressed, however the core functionality of the app is working.
+This has been a practice for ORM.
+While it wasn't the most technically challenging, understanding the true depths of the content here is extremely deep.
 
-Personally, understanding how mysql2 works and some of the smaller nuances of how to insert values into searches was slightly frustrating.
+There's a lot of aspects about this project that I'm not super comfortable with, however the core functionality is working.
 
-The SQL statements themselves are the next runner up, with some strange chaining occurring.
-
-Thirdly, the way we're chaining queries with inquirer is quite messy, I'm sure there is a better way of doing it.
 
 Overrall, a great exercise in patience and learning, definitely the hardest one I've encountered so far.
-
-There are still a lot of features that should be included. The top priority would be having the menu loop over once a selection has been chosen. It was not included because of some bugs that were pretty challenging to discover, definitely something to come back upon once time is available. Theoretically it should be an extremely simple fix, but alas.
-The code isn't quite dry enough, it could certainly be way more optimized and have the same functionality.
 
 
 ## Credits
