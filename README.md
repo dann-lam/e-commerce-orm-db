@@ -44,7 +44,7 @@ start the server, npm run start.
 Here is a quick demo of the application, a longer version can be found here: https://raw.githubusercontent.com/dann-lam/04-29-2023-employee-database/main/walkthrough.mp4
 
 https://raw.githubusercontent.com/dann-lam/04-29-2023-employee-database/main/walkthrough2.mp4
-![Image of Application](https://github.com/dann-lam/04-29-2023-employee-database/blob/main/short_demo.gif)
+![Image of Application](https://raw.githubusercontent.com/dann-lam/e-commerce-orm-db/main/short_demo.gif)
 
 
 
